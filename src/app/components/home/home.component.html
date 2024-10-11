@@ -1,0 +1,47 @@
+<div class="container">
+  <h2 class="text-center mb-4 fw-bold fs-1">I nostri marchi</h2>
+  <div class="row justify-content-center">
+    <div
+      *ngFor="let brand of brandArr"
+      class="col-md-4 mb-4 d-flex justify-content-center"
+    >
+      <a [routerLink]="['/brand', brand]">
+        <img
+          [src]="brandLogos[brand]"
+          alt="{{ brand }} logo"
+          class="img-fluid brand-logo"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5 text-center">
+  <h2 class="fw-bold mb-3">Le nostre macchine consigliate</h2>
+  <div class="row">
+    <div *ngFor="let car of randomCars" class="col-md-4 mb-4">
+      <div
+        [ngClass]="{
+          'bg-available': car.available,
+          'bg-unavailable': !car.available
+        }"
+        class="card mb-3"
+      >
+        <img
+          [src]="car.modelImage"
+          class="card-img-top"
+          alt="{{ car.model }}"
+          class="card-img-top mb-3 img-fluid car-orig"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ car.brand }} - {{ car.model }}</h5>
+          <p class="card-text">Anno: {{ car.year }}</p>
+          <p class="card-text">Prezzo: {{ car.price }}€</p>
+          <a [routerLink]="['/brand', car.brand]" class="btn btn-primary">
+            Vai al brand
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,84 @@
+[
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/9/9e/Logo_della_Fiat.svg",
+        "model": "500L",
+        "modelImage": "https://cdnwp.dealerk.com/eed49ed7/uploads/sites/142/2019/04/500l-120-1024x576.jpg",
+        "year": 2015,
+        "price": 7500,
+        "available": false
+    },
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/9/9e/Logo_della_Fiat.svg",
+        "model": "500 Abarth",
+        "modelImage": "https://cdn.drivek.com/configurator-imgs/cars/it/800/ABARTH/500/3642_BERLINA-3-PORTE/abarth-595-promo.jpg",
+        "year": 2010,
+        "price": 3500,
+        "available": true
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.svg/800px-Ford_logo_flat.svg.png",
+        "model": "Taurus",
+        "modelImage": "https://getrentacar.com/storage/cache/images/960-640-100-fit-148707.jpeg",
+        "year": 2009,
+        "price": 5200,
+        "available": false
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.svg/800px-Ford_logo_flat.svg.png",
+        "model": "Focus",
+        "modelImage": "https://www.autoscout24.it/cms-content-assets/35gCEkFPutJ9p2sH6oQBtJ-835e8af4d7cab2d0706cedb7f5771829-ford-focus-side-1100.jpg",
+        "year": 2014,
+        "price": 9700,
+        "available": true
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Audi_logo.svg/1200px-Audi_logo.svg.png",
+        "model": "A3",
+        "modelImage": "https://www.centroaudi.it/wp-content/uploads/2024/04/de40b23a62fc4ba7a3f3feb8a7ce561f_orig.jpg",
+        "year": 2012,
+        "price": 4300,
+        "available": true
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Audi_logo.svg/1200px-Audi_logo.svg.png",
+        "model": "Q7",
+        "modelImage": "https://cdn.drivek.com/configurator-imgs/cars/it/Original/AUDI/Q7/43953_SUV-5-DOORS/audi-q7-front-view.jpg",
+        "year": 2020,
+        "price": 41700,
+        "available": false
+    },
+    {
+        "brand": "Audi",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Audi_logo.svg/1200px-Audi_logo.svg.png",
+        "model": "A1",
+        "modelImage": "https://www.moreno.it/app/uploads/2024/05/audi-a1-benzina-usata-20240513161551-1_27976_GM.jpg",
+        "year": 2010,
+        "price": 27700,
+        "available": true
+    },
+    {
+        "brand": "Fiat",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/it/9/9e/Logo_della_Fiat.svg",
+        "model": "Punto",
+        "modelImage": "https://www.autoscout24.it/cms-content-assets/1j41uNUWPOYArVMo0qwTn6-9fde34590cef35cb45fbb3fdbdce33cb-fiat-punto-front-1100.jpg",
+        "year": 1993,
+        "price": 3500,
+        "available": true
+    },
+    {
+        "brand": "Ford",
+        "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.svg/800px-Ford_logo_flat.svg.png",
+        "model": "Fiesta",
+        "modelImage": "https://www.fordnuovassauto.it/images/vehicles/4052908/0/large",
+        "year": 2023,
+        "price": 15490,
+        "available": true
+    }
+    
+]

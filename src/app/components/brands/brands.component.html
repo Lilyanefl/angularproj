@@ -1,0 +1,52 @@
+<div class="container mt-5">
+  <h2 class="text-center">
+    Le nostre macchine
+    <img
+      *ngIf="brandName && brandLogos[brandName]"
+      [src]="brandLogos[brandName]"
+      class="img-fluid brand-logo"
+      alt="{{ brandName }} logo"
+    />
+  </h2>
+  <div class="row">
+    <div *ngFor="let car of filteredCars" class="col-md-4 mb-4">
+      <div
+        [ngClass]="{
+          'bg-available': car.available,
+          'bg-unavailable': !car.available
+        }"
+        class="card mb-3"
+      >
+        <img
+          [src]="car.modelImage"
+          class="card-img-top"
+          alt="{{ car.model }}"
+          class="card-img-top mb-3 img-fluid car-orig"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ car.brand }} - {{ car.model }}</h5>
+          <p class="card-text">Anno: {{ car.year }}</p>
+          <p class="card-text">Prezzo: {{ car.price }}€</p>
+          <p class="card-text">
+            <span
+              [ngClass]="{
+                'text-light': car.available,
+                'text-dark': !car.available
+              }"
+            >
+              {{ car.available ? "Disponibile" : "Non disponibile" }}
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    *ngIf="filteredCars.length === 0"
+    class="alert alert-warning mt-4"
+    role="alert"
+  >
+    Non ci sono macchine disponibili per il brand "{{ brandName }}".
+  </div>
+</div>
